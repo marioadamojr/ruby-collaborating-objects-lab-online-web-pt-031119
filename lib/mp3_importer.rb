@@ -1,6 +1,6 @@
 require 'pry'
 class MP3Importer
-  attr_accessor :path, :files
+  attr_accessor :path
 
   def initialize(path)
     @path=path
@@ -12,8 +12,8 @@ class MP3Importer
     @files
   end
 
-  def size
-    self.files.count
+  def import
+    
   end
 
 
