@@ -4,16 +4,16 @@ class MP3Importer
 
   def initialize(path)
     @path=path
-    @files=[]
-    @files << music_path
+    # @files=[]
+    # @files << music_path
   end
 
   def files
-    @files
+    Dir.entries(path)
   end
 
   def import
-
+    
   end
 
 
